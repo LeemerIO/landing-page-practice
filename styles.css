@@ -3,7 +3,19 @@
     flex-direction: column;
 }
 
+.header1 {
+    display: flex;
+}
+
 .header1 > div {
     display: flex;
     flex-direction: row;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.welcome-container {
+    display: flex;
 }
