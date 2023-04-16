@@ -5,17 +5,117 @@
 
 .header1 {
     display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+#home {
+    display: flex;
+    align-self: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 .header1 > div {
     display: flex;
     flex-direction: row;
+    color: #E5E7EB;
 }
 
-div {
-    border: 1px solid red;
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
 }
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#bee {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: #3882F6;
+    border-style: outset;
+}
+
+#desc {
+    font-size: 15px;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+}
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+h2 {
+font-size: 36px;
+font-weight: extra-bold;
+color: #1f2937;
+text-align: center;
+}
+
+
 
 .welcome-container {
     display: flex;
+    background-color: #1f2937;
+}
+
+.butt {
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+    justify-content: space-around;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.call {
+    text-align: left;
+    padding-top: 10px;
+}
+
+#last-button {
+   padding: 15px 25px;
+   cursor: pointer;
+   border: 2px solid white;
+}
+
+* {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+    display: block;
+    text-align: center;
 }
